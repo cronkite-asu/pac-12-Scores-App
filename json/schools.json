@@ -1,0 +1,174 @@
+
+{
+    "schools": [
+        {
+            "id": 9,
+            "name": "Arizona",
+            "abbr": "ARIZ",
+            "mascot": "Wildcats",
+            "url": "http://www.arizonawildcats.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/arizona-logo.png?itok=PTrc1TPx",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/arizona-logo.png?itok=N6kWL3dS",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/arizona-logo.png?itok=gauaL5wJ",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/arizona-logo.png?itok=cryepFtY"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Arizona State",
+            "abbr": "ASU",
+            "mascot": "Sun Devils",
+            "url": "http://www.thesundevils.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/arizona-state-r-logo.png?itok=zi5vh99C",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/arizona-state-r-logo.png?itok=gi3HyJjq",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/arizona-state-r-logo.png?itok=lSZj74mH",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/arizona-state-r-logo.png?itok=umB09I55"
+            }
+        },
+        {
+
+            "id": 10,
+            "name": "California",
+            "abbr": "CAL",
+            "mascot": "Golden Bears",
+            "url": "http://calbears.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/california-b-logo-1.png?itok=yowYxHKz",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/california-b-logo-1.png?itok=jFp8tfpc",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/california-b-logo-1.png?itok=NIU7Y2xx",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/california-b-logo-1.png?itok=TGwqOFiK"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Colorado",
+            "abbr": "COLO",
+            "mascot": "Buffaloes",
+            "url": "http://www.cubuffs.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/colorado-logo.png?itok=XVMkX8UH",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/colorado-logo.png?itok=kbceEj2L",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/colorado-logo.png?itok=5uU5RQrv",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/colorado-logo.png?itok=jTOPsWO2"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Oregon",
+            "abbr": "ORE",
+            "mascot": "Ducks",
+            "url": "http://www.goducks.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/oregon-g-logo.png?itok=wYTf6NCz",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/oregon-g-logo.png?itok=vhyE9M9u",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/oregon-g-logo.png?itok=xNa9gRCv",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/oregon-g-logo.png?itok=X2W_Bf_o"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Oregon State",
+            "abbr": "ORST",
+            "mascot": "Beavers",
+            "url": "http://www.osubeavers.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/oregon-state-logo_0.png?itok=hnHRnq9s",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/oregon-state-logo_0.png?itok=VJHO558T",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/oregon-state-logo_0.png?itok=jrIehpu4",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/oregon-state-logo_0.png?itok=bsFO-ToD"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Stanford",
+            "abbr": "STAN",
+            "mascot": "Cardinal",
+            "url": "http://www.gostanford.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/stanford-logo.png?itok=6GeCsjVe",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/stanford-logo.png?itok=H1sr9U4W",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/stanford-logo.png?itok=TR1MGwQs",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/stanford-logo.png?itok=egLyLp6O"
+            }
+        },
+        {
+            "id": 20,
+            "name": "UCLA",
+            "abbr": "UCLA",
+            "mascot": "Bruins",
+            "url": "http://www.uclabruins.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/ucla-logo.png?itok=BKiTsTcN",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/ucla-logo.png?itok=sA6VDCrV",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/ucla-logo.png?itok=Mcki8OHt",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/ucla-logo.png?itok=49FkFvVc"
+            }
+        },
+        {
+            "id": 21,
+            "name": "USC",
+            "abbr": "USC",
+            "mascot": "Trojans",
+            "url": "http://www.usctrojans.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/usc-logo.png?itok=Kics0y9f",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/usc-logo.png?itok=lXqbtH71",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/usc-logo.png?itok=_k4lgcuU",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/usc-logo.png?itok=F4rTEkSD"
+            }
+        },
+        {
+            "id": 22,
+            "name": "Utah",
+            "abbr": "UTAH",
+            "mascot": "Utes",
+            "url": "http://www.utahutes.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/utah-logo.png?itok=njGVmZCd",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/utah-logo.png?itok=S_ZIAvVy",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/utah-logo.png?itok=GCK336UU",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/utah-logo.png?itok=9aEcGH_0"
+            }
+        },
+        {
+            "id": 23,
+            "name": "Washington",
+            "abbr": "WASH",
+            "mascot": "Huskies",
+            "url": "http://www.gohuskies.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/washington-logo.png?itok=W9-Le8SC",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/washington-logo.png?itok=G0fHyNa7",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/washington-logo.png?itok=I0AZ_bsW",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/washington-logo.png?itok=Oj0yHYSp"
+            }
+        },
+        {  
+            "id": 24,
+            "name": "Washington State",
+            "abbr": "WSU",
+            "mascot": "Cougars",
+            "url": "http://www.wsucougars.com/",
+            "pac12": true,
+            "images": {
+                "large": "http://x.pac-12.com/sites/default/files/styles/large/public/washington-state-logo.png?itok=ujq7J2Eg",
+                "medium": "http://x.pac-12.com/sites/default/files/styles/medium/public/washington-state-logo.png?itok=GIdkgCwZ",
+                "small": "http://x.pac-12.com/sites/default/files/styles/thumbnail/public/washington-state-logo.png?itok=G8FxxtOT",
+                "tiny": "http://x.pac-12.com/sites/default/files/styles/icon/public/washington-state-logo.png?itok=lCvUjSvJ"
+            }
+        }
+    ]
+}
