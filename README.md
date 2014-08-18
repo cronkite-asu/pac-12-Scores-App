@@ -22,9 +22,9 @@ Events: http://api.pac-12.com/v2/sports
 =========
 
 bootstrap.min.js
-ie-emulation-modes-warning.js
-ie10-viewport-bug-workaround.js
-jquery.min.js
+ie-emulation-modes-warning.js<br/>
+ie10-viewport-bug-workaround.js<br />
+jquery.min.js<br />
 
 Scripts
 =======
