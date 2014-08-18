@@ -1,4 +1,4 @@
-pac-12-Scores-App
+Pac-12 Scoring Application
 =================
 
 Responsive Web Application to capture Pac-12 Scores and Rosters
@@ -8,6 +8,11 @@ Desciption
 ==========
 
 This application uses the Pac-12 APIs to gather information for sporting events. 
+
+Requirements
+============
+
+The application will be a responsive web application. The application will allow users to enter rosters and scores for college sporting events.
 
 Sources of data
 ==============
