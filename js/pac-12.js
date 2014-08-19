@@ -91,7 +91,7 @@ function getEventsBySportId(in_id,in_name) {
 				school_count++;
 			});
 
-	  		$(".list-group").append('<a href=\"#\" class=\"list-group-item\"><span class=\"event-title\">' 
+	  		$(".list-group").append('<a href=\"score-event.html\" class=\"list-group-item\"><span class=\"event-title\">' 
 	  			//+ events['events'][count]['title'] + '</span><br/>' 
 	  			+ '<span class=\"team-name\"><img src=\"' + home_logo + '\">' + home_name + ' ' + home_mascot + ' vs ' 
 	  			+ '<span class=\"team-name\"><img src=\"' + away_logo + '\">' + away_name + ' ' + away_mascot + '<br/>'
