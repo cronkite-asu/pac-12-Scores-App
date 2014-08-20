@@ -62,10 +62,10 @@ $(".add-player").on("click", function(event) {
 	console.log("Clicked on add");
 	$("<div class=\"row roster-row\">" + 
 		"<div class=\"col-lg-2\">" + 
-	  		"<div id=\"player" + count_players + "-number\" class=\"input-group\"><input type=\"text\" class=\"form-control player-number\" placeholder=\"#\"></div>" + 
+	  		"<div id=\"player[" + count_players + "][number]\" class=\"input-group\"><input type=\"text\" class=\"form-control player-number\" placeholder=\"#\"></div>" + 
 	  	"</div>" + 
 	  	"<div class=\"col-lg-2\">" + 
-	  		"<div id=\"player" + count_players + "-name\" class=\"input-group\"><input type=\"text\" class=\"form-control player-name\" placeholder=\"Player Name\"></div>" + 
+	  		"<div id=\"player[" + count_players + "]name]\" class=\"input-group\"><input type=\"text\" class=\"form-control player-name\" placeholder=\"Player Name\"></div>" + 
 	  	"</div>" +
 	  "</div>").appendTo(".roster");
 	  count_players++;
