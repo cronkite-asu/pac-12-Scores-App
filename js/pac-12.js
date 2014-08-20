@@ -1,6 +1,7 @@
 var sports = null;
 var events = null;
 var schools = null;
+var count_players = 1;
 
 // Loads JSON data
 function start(){
@@ -49,6 +50,28 @@ $(".dropdown-menu").on("click", function(event){
     });
 });
 
+/* Event listener for adding a roster */
+$(".list-group").on("click", function(event) {
+	$("#events-list").css("display", "none");
+	$(".add-player-btn").css("display", "block");
+	$(".roster-row").css("display", "block");
+});
+
+/* Event listener for adding a player row */
+$(".add-player").on("click", function(event) {
+	console.log("Clicked on add");
+	$("<div class=\"row roster-row\">" + 
+		"<div class=\"col-lg-2\">" + 
+	  		"<div id=\"player" + count_players + "-number\" class=\"input-group\"><input type=\"text\" class=\"form-control player-number\" placeholder=\"#\"></div>" + 
+	  	"</div>" + 
+	  	"<div class=\"col-lg-2\">" + 
+	  		"<div id=\"player" + count_players + "-name\" class=\"input-group\"><input type=\"text\" class=\"form-control player-name\" placeholder=\"Player Name\"></div>" + 
+	  	"</div>" +
+	  "</div>").appendTo(".roster");
+	  count_players++;
+	  $(".roster-row").css("display", "block");
+});
+
 /* Show events for given sport id */
 function getEventsBySportId(in_id,in_name) {
 	var count = 0;
@@ -91,7 +114,7 @@ function getEventsBySportId(in_id,in_name) {
 				school_count++;
 			});
 
-	  		$(".list-group").append('<a href=\"score-event.html\" class=\"list-group-item\"><span class=\"event-title\">' 
+	  		$(".list-group").append('<a href=\"#\" class=\"list-group-item\"><span class=\"event-title\">' 
 	  			//+ events['events'][count]['title'] + '</span><br/>' 
 	  			+ '<span class=\"team-name\"><img src=\"' + home_logo + '\">' + home_name + ' ' + home_mascot + ' vs ' 
 	  			+ '<span class=\"team-name\"><img src=\"' + away_logo + '\">' + away_name + ' ' + away_mascot + '<br/>'

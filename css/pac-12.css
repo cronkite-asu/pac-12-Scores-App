@@ -29,9 +29,31 @@ body {
 
 }
 
+.roster-row {
+  display:none;
+  margin-bottom: 10px;
+}
+
+.add-player-btn {
+  display:none;
+  margin-bottom: 10px;
+}
+
 .team-name {
 
 }
 
+.add-player {
+
+}
+
+.player-number {
+	width:75%;
+	margin-bottom:5px;
+}
+
+.player-name {
+
+}
 
 
